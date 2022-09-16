@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #5a64f5;
+    color: #FFF;
+}
+
+#overview {
+    margin: 0 auto;
+    width: 90%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background: #DDDDDD70;
+}
+
+main {
+    margin-top: 2rem;
+    min-height: 29.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ad-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: #00B37E33;
+}
+
+.ad-colun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00B37E33;
+    height: 25%;
+}
+
+.container-text-area {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#texto {
+    resize: none;
+    font-size: 20px;
+}
+
+.label {
+    font-size: 30px;
+}
+
+.container-buttons {
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.upercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.container-buttons button {
+    font-weight: 900;
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.container-buttons .active {
+    background: #00B37E;
+}
+
+.container-buttons button:hover {
+    background: #FFFFFF;
+    color: #5a64f5;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DDDDDD70;
+}
+
+.intro {
+    font-size: 150%;
+    text-transform: uppercase;
+  }
